@@ -9,7 +9,9 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.CheckBox
 import android.widget.EditText
+import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.RecyclerView
 
 class CrimeFragment : Fragment() {
     private lateinit var crime: Crime
@@ -36,6 +38,8 @@ class CrimeFragment : Fragment() {
         }
         return view
     }
+
+
 
     override fun onStart() {
         super.onStart()
